@@ -1,0 +1,252 @@
+div.contenedor{
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+header{
+	position: absolute;
+	background-color: #c2e0d6;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 50px;
+}
+div.Prin{
+	position: absolute;
+	background-color: #04a8e0;
+	top: 0px;
+	left: 0px;
+	right: 80%;
+	height: 50px;
+}
+div.Prin:hover{
+	background-color: #08baf7; 
+}
+img.logo{
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	height: 40px;
+	width: 50px;
+}
+h3{
+	position: absolute;
+	top: -15px;
+	left: 60px;
+	color: white;
+	font-family: verdana;
+	font-size: x-large;
+}
+span.inicio{
+	position: absolute;
+	top: 16px;
+	color: white;
+	font-family: sans-serif;
+	font-size: x-large;
+	font-weight: bold;
+	display: none;
+}
+img.menu{
+	position: absolute;
+    right: 20px;
+    height: 40px;
+    top: 4px;
+
+}
+aside{
+	background-color: #c2e0d6;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	right: 80%;
+	bottom: 0px;
+	overflow: auto;
+	box-sizing: border-box;
+}
+div.url{
+	position: relative;
+	top: 10px;
+	background-color: #ffffff;
+	left: 5px;
+	width: 255px;
+	margin-bottom: 20px;
+	height: 45px;
+	border: 1px solid;
+	border-color: #e2e2e2;
+	border-top-width: 5px;
+}
+div.url:hover{
+	border-color: #04a8e0;
+}
+div.url img{
+	width: 30px;
+	height: 30px;
+	position: relative;
+	top: 8px;
+	left: 3px;
+}
+div.url span{
+	position: relative;
+	top: 0px;
+	left: 5px;
+	color: black;
+	font-family: sans-serif;
+	font-size: medium;
+}
+aside a{
+	text-decoration: none;
+}
+main{
+	background-color: #ffffff;
+	position: absolute;
+	top: 50px;
+	left: 20%;
+	right: 0px;
+	bottom: 0px;
+	overflow: auto;
+	box-sizing: border-box;
+}
+main span {
+	position: relative;
+	left: 30px;
+	top: 13px;
+	font-family: sans-serif;
+	font-size: xx-large;
+	font-weight: bold;
+}
+main hr{
+	position: relative;
+	left: 0px;
+	width: 1040px;
+	top: 20px;
+}
+div.lista{
+    position: relative;
+    top: 30px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    left: 30px;
+    width: 400px;
+    height: 200px;
+    border: 1px solid;
+    border-top: 5px solid;
+    border-color: #c3bfbf;
+    display: inline-block;
+    cursor: pointer;
+}
+div.lista:hover{
+	border-color: #e04604;
+}
+div.contenedor{
+	margin: 20px;
+	width: 90%;
+}
+table{
+	position: relative;
+	left: 10px;
+	top: 0px;
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+	overflow: auto;
+}
+th{
+	padding: 3px;
+}
+thead{
+	border: 3px solid black;
+}
+td{
+	padding: 0px;
+}
+tr, td{
+	border:solid 2px black;
+	height: 10px;
+}
+main div p{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    font-size: small;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+@media screen and (min-width: 900px){
+	header{
+		background-position: center;
+	}
+	h3{
+		top: -2px;
+		font-size: unset;
+	}
+	div.url{
+		width: 180px;
+	}
+	div.url span{
+		font-size: small ;
+	}
+	div.lista{
+		width: 700px;
+		text-align: center;
+	}
+}
+@media screen and (max-width: 800px){
+		header{
+		background-position: center;
+	}
+	h3{
+		top: -2px;
+		font-size: unset;
+	}
+	div.url{
+		width: 150px;
+	}
+	div.url span{
+		font-size: small ;
+	}
+	div.lista{
+		width: 590px;
+		text-align: center;
+	}
+}
+@media screen and (max-width: 700px){
+		header{
+		background-position: center;
+	}
+	h3{
+		top: -2px;
+		left: 55px;
+		font-size: unset;
+	}
+	div.url{
+		width: 127px;
+	}
+	div.url span{
+		font-size: x-small ;
+	}
+	div.lista{
+		width: 510px;
+		text-align: center;
+	}
+}
+@media screen and (max-width: 600px){
+		header{
+		background-position: center;
+	}
+	h3{
+		top: -2px;
+		left: 55px;
+		font-size: unset;
+	}
+	div.url{
+		width: 127px;
+	}
+	div.url span{
+		font-size: x-small ;
+	}
+	div.lista{
+		width: 510px;
+		text-align: center;
+	}
+}
